@@ -1,4 +1,4 @@
-"use strict";
+"use theStrict";
 
 // const num = 20;
 // switch (num) {
@@ -113,3 +113,37 @@
 // ***********
 
 ///////////////////////////////////////////////////////// !!! \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+// String most used methods
+//Only .length - property, the others are methods().
+
+// const theStr = "heLlo wOrld!";
+
+// console.log(theStr.length); // proprrietate
+
+// console.log(theStr[8]);
+
+// console.log(theStr.toUpperCase());
+// console.log(theStr.toLowerCase());
+
+// console.log(theStr.indexOf("wOrld")); //
+// console.log(theStr.indexOf("world")); // world - arata -1, pentru ca nui
+
+// console.log(theStr.slice(6, 11)); // primul argument - de unde incepe sa scoata fraza
+//  al doilea - ultimul argument (nu inclusiv), al doilea se poate de evitat
+// console.log(theStr.slice(4));
+//  console.log(theStr.slice(-4)); // incepe de la sfirsitul cuvintului
+// console.log(theStr.subtheString(4, 9)); // la fel ca slice, nu poate primi argumente negative
+// console.log(theStr.substr(3, 7)); // incepe de la 3 simbol si scoate 7 simboluri, incepind cu a 3
+
+// Numbers most used methods
+// Math.
+
+// const theNum = 12.8;
+
+// console.log(Math.round(theNum)); // rotungeste
+
+// const test = "12.2px";
+
+// console.log(parseInt(test)); // intoarce 12
+// console.log(parseFloat(test)); // intoarce 12.2
